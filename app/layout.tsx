@@ -12,9 +12,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja-jp">
-      <head>
-        <script src="https://cdn.master.co/css"></script>
-      </head>
       <body style={{
         margin: 0,
         padding: 0,
