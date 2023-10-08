@@ -16,11 +16,12 @@ export default function Home() {
       display: "flex"
     }}>
       <span style={{
-        marginRight: -32 + 6
+        marginRight: "calc( -32px + 1vw )"
       }}>1</span>
       <span style={{
         display: "block",
-        lineHeight: 1.38
+        lineHeight: 1.38,
+        letterSpacing: "3vw"
       }}>=</span>
       <span>2</span>
     </h1>
