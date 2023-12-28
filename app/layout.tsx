@@ -11,10 +11,15 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="ja-jp">
+    <html lang="ja-jp" style={{
+      //backgroundImage: `url(/bg2.png)`,
+      //backgroundSize: "cover",
+      //backgroundRepeat: "repeat",
+      //backgroundColor: "#9b7998"
+    }}>
       <body style={{
         margin: 0,
-        padding: 0,
+        padding: 0
       }}>
         {children}
       </body>
