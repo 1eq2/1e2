@@ -57,6 +57,10 @@ export default function Home() {
       }}>
         <Title />
       </div>
+      <img style={{
+        maxWidth: "100%",
+        marginBottom: 32
+      }} src="/list.png" alt="" />
       <GradientText style={{
         fontSize: 18,
         letterSpacing: "inherit",
